@@ -596,6 +596,8 @@ img{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     transition: transform var(--transition);
+    background: #FFFFFF;
+    padding: 72px 24px 24px 24px;
 
 }
 .is-hidden{
@@ -634,6 +636,97 @@ img{
 .modal:focus .modal-btn{
     fill: #ffffff;
 } 
+.modal-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+    margin-bottom: 16px;
+}
+.modal-field{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.form-input{
+    font-family: inherit;
+    width: 360px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
+    padding-left: 38px;
+    outline: none;
+   
+}
+.form-label{
+    display: inline-block;
+    margin-bottom: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--link-color);
+
+}
+.form-input:focus{
+    border-color: var(--primary-color);
+}
+.form-input:focus + .modal-name-svg{
+    fill: var(--primary-color);
+}
+
+ 
+.input-wrep{
+    position: relative;
+    margin-bottom: 8px;
+}
+.modal-name-svg{
+    position: absolute;
+    left: 19px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill var(--transition);
+}
+.form-textarea{
+    width: 360px;
+    height: 120px;
+    
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    resize: none;
+    border: 1px solid var(--primary-color);
+    margin-bottom: 16px;
+}
+
+.form-textarea::placeholder{
+    border-color: var(--primary-color);
+}
+.input-check{
+    display: inline-block;
+
+    
+    
+}
+.check-label{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+}
+
+.check-label a{
+    text-decoration: underline;
+}
+
     
     
     
