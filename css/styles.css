@@ -785,13 +785,7 @@ img{
     text-decoration: underline;
    
 }
-.chack-span{
-    transition: background-color var(--transition),
-    border var(--transition),
-    fill var(--transition);
-    display: inline-flex;
 
-}
 .check-label span{
     width: 16px;
     height: 16px;
@@ -803,6 +797,9 @@ img{
     border-radius: 2px;
     margin-right: 8px;
     fill: transparent;
+    transition: background-color var(--transition),
+    border var(--transition),
+    fill var(--transition);
 }
 .chack-link{
     color: var(--primary-color);
