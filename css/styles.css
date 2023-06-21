@@ -789,7 +789,7 @@ img{
 .check-label span{
     width: 16px;
     height: 16px;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     background: #FFFFFF;
