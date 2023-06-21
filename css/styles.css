@@ -479,7 +479,7 @@ img{
     padding: 8px 16px;
     font-weight: 400;
     font-size: 12px;
-    line-height: 2;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--main-color);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -758,7 +758,9 @@ img{
     outline: transparent;
     transition: border-color var(--transition);
 }
-
+.form-textarea:focus{
+    border-color: var(--primary-color);
+}
 .form-textarea::placeholder{
     border-color: var(--primary-color);
 }
@@ -784,9 +786,9 @@ img{
    
 }
 .chack-span{
-    transition: background-color var(--transition);
-    border: var(--transition);
-    fill: var(--transition);
+    transition: background-color var(--transition),
+    border var(--transition),
+    fill var(--transition);
     display: inline-flex;
 
 }
