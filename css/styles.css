@@ -711,9 +711,6 @@ img{
 }
 .input-check{
     display: inline-block;
-
-    
-    
 }
 .check-label{
     font-weight: 400;
@@ -721,10 +718,48 @@ img{
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8E8F99;
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;;
+
 }
 
 .check-label a{
     text-decoration: underline;
+   
+}
+.check-label span{
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    margin-right: 8px;
+    fill: transparent;
+}
+.input-check:checked + .check-label span{
+    background-color: var(--second-color);
+    border: none;
+    fill: #ffffff;
+}
+.botton-btn{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: block;
+   margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: var(--primary-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 16px 32px;
 }
 
     

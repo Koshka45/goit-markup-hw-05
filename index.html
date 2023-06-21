@@ -362,7 +362,7 @@
                         </div>
                     </div>
                 </footer>
-                <div class="backdrop " data-modal="">
+                <div class="backdrop is-hidden" data-modal="">
                     <div class="modal">
                         <button class="modal-btn" type="button" data-modal-close="">
                             <svg class="modal-btn-svg" width="8" height="8">
@@ -406,10 +406,13 @@
                                 <textarea class="form-textarea" name="textarea-name" id="user-comment" 
                                 placeholder="Text input"></textarea>
                             </div>
-                            <div class="modal-field" >
-                                <input class="input-check" type="checkbox" name="checkbox-policy" id="policy" value="true"/>
-                                <label class="check-label" for="policy">I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
+                            <div class="modal-check">
+                                <input class="input-check visually-hidden" type="checkbox" name="checkbox-policy" id="policy" value="true"/>
+                                <label class="check-label" for="policy"><span><svg class="chack-icon" width="10" height="8">
+                                    <use href="./images/icons.svg#icon-chesk"></use>
+                                </svg></span>I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
                             </div>
+                            <button class="botton-btn" type="submit">Send</button>
                         </form>
                     </div>
                 </div>
