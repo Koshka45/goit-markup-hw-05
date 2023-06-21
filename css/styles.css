@@ -795,7 +795,7 @@ img{
 .check-label span{
     width: 16px;
     height: 16px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     background: #FFFFFF;
